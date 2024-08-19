@@ -2,30 +2,66 @@
 # SE_Day1
 Software Engineering Day1 Assignment
 
-#Part 1: Introduction to Software Engineering
+Part 1: Introduction to Software Engineering
 
 Explain what software engineering is and discuss its importance in the technology industry.
+
+Software engineering involves product design, development, testing, deployment and maintenance. It uses engineering principles, methods and tools in making sure high-quality 
+software applications and softwares are developed and maintained which are used in various sectors on a daily basis.
 
 
 Identify and describe at least three key milestones in the evolution of software engineering.
 
+1) The advent of the first programming languages like C and Fortran.
+2) The establishment of software engineering as a discipline in the 1960s.
+3) The rise of agile methodologies which involves a flexible and interative approach to software development that emphasizes collaboration, customer feedback, and rapid delivery of functional software.
+
 
 List and briefly explain the phases of the Software Development Life Cycle.
+
+1) Requirement - Involves gathering and documenting user needs and system requirements.
+2) Design - Involves creating high-level and detailed designs of the software architecture and user interface.
+3) Implementation - Involves writing code and building the software according to the design specifications.
+4) Testing - Involves conducting various tests to ensure the software meets quality standards and functional requirements.
+5) Deployment - Involves releasing the software to users or customers.
+6) Maintenance - Involves providing ongoing support, updates, and enhancements to the software after deployment.
 
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
 
+The Waterfall methodology is a sequential approach with distinct phases flowing downwards like a waterfall. It requires completing each phase of the SDLC before moving on the next. It is suitable for projects with well defined requiremnt that are unlikely to change.
+The Agile methodology is an iterative and incremental approach focused on flexibility, collaboration, and responding to change. Suitable for development of a mobile banking app.
+
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
+
+The Software Developer is responsible for writing code and implementing software solutions.
+The Quality Assurance Engineer ensures software quality by designing and executing test plans.
+The Project Manager oversees the planning, execution, and delivery of software projects.
 
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
 
+Integrated Development Environments (IDEs) are software suites that provide comprehensive tools for writing, debugging, and testing code. Examples are Visual Studio, Eclipse and IntelliJ IDEA.
+Version Control Systems (VCS) are software tools for tracking changes to source code and coordinating work among team members. Examples are  Git and Subversion.
+
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
 
+1) Changing Requirements: Requirements may change during the development cycle, leading to scope creep and project delays.
+2) Tight Deadlines: Pressure to deliver software products on schedule can result in rushed development and compromised quality.
+3) Technical Debt: Accrued from shortcuts or suboptimal solutions, technical debt can impede future development efforts and increase maintenance costs.
+   
+Strategies to overcome these challenges include effective communication, agile methodologies, prioritization of tasks, and regular reassessment of project goals and timelines.
+
+
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+
+1) Unit Testing is about testing individual components or modules of software.
+2) Integration Testing is about testing interactions between different components or subsystems.
+3) System Testing is about testing the entire software system as a whole.
+4) Acceptance Testing is about testing the software against user requirements to ensure it meets user needs.
 
 
 #Part 2: Introduction to AI and Prompt Engineering
@@ -33,5 +69,12 @@ Explain the different types of testing (unit, integration, system, and acceptanc
 
 Define prompt engineering and discuss its importance in interacting with AI models.
 
+Prompt engineering is all about crafting questions or statements to get the best possible responses from AI models.
+
+It helps in crafting specific and focused questions or statements to help the computer or AI model produce accurate result or answers as much as possible.
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+
+Create a function for me.
+
+Create a python function that adds two numbers and returns the result.
